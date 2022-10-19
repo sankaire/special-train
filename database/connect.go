@@ -11,7 +11,7 @@ import (
 	"todo-api/models"
 )
 
-const connectionString = "mongodb+srv://tepela:ZAS0706x@cluster0.ns3va.mongodb.net/go-todo?retryWrites=true&w=majority"
+const connectionString = "dburi"
 
 var collection *mongo.Collection
 
